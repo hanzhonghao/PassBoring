@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@mipmap/ic_nav_news"
+            android:title="你爱看的新闻"/>
+
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@mipmap/ic_nav_picture"
+            android:title="你喜欢的图片"/>
+
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@mipmap/ic_nav_video"
+            android:title="你会点的视频"/>
+    </group>
+    <!--none，没有可复选性-->
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/ic_nav_setting"
+            android:title="你会用的设置"/>
+    </group>
+</menu>
